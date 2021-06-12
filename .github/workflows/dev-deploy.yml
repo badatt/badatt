@@ -9,7 +9,7 @@ jobs:
   deploy:
     name: Build and deploying Me Web UI
     runs-on: ubuntu-latest
-    environment: develop
+    environment: PRD
 
     steps:
       - name: Checkout
