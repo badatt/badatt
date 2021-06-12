@@ -8,18 +8,15 @@ const Footer: React.FC = () => (
   <Styled.Footer>
     <Container>
       <Styled.Links>
-        <Styled.Link href="/" rel="noreferrer noopener" target="_blank">
-          GitHub
+        <Styled.Link href="https://github.com/badatt" rel="noreferrer noopener" target="_blank">
+          Github
         </Styled.Link>
         <Styled.Link
-          href="https://github.com/SaimirKapaj/gatsby-markdown-typescript-personal-website"
+          href="https://www.linkedin.com/in/balu-praveen-datty-210561a4"
           rel="noreferrer noopener"
           target="_blank"
         >
-          Twitter
-        </Styled.Link>
-        <Styled.Link href="/" rel="noreferrer noopener" target="_blank">
-          Behance
+          Linkedin
         </Styled.Link>
       </Styled.Links>
     </Container>

@@ -1,9 +1,9 @@
 import React from 'react';
+import _ from 'lodash';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import Container from 'components/ui/Container';
 import TitleSection from 'components/ui/TitleSection';
-import ProgressBar from 'components/ui/ProgressBar';
 
 import { SectionTitle } from 'helpers/definitions';
 
@@ -14,6 +14,7 @@ interface Skill {
     id: string;
     frontmatter: {
       title: string;
+      quandrant: string;
       percentage: number;
     };
   };
@@ -34,6 +35,7 @@ const Skills: React.FC = () => {
             id
             frontmatter {
               title
+              quandrant
               percentage
             }
           }
@@ -44,24 +46,71 @@ const Skills: React.FC = () => {
 
   const sectionTitle: SectionTitle = markdownRemark.frontmatter;
   const skills: Skill[] = allMarkdownRemark.edges;
+  const { backend, frontend, cloud, misc } = _.groupBy(skills, 'node.frontmatter.quandrant');
+
+  
 
   return (
     <Container section>
       <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} center />
-      <Styled.Skills>
-        {skills.map((item) => {
+      <Styled.SkillMatrix>
+        <Styled.SkillQuadrant>
+        {backend.map((item) => {
           const {
             id,
             frontmatter: { title, percentage }
           } = item.node;
 
           return (
-            <Styled.Skill key={id}>
-              <ProgressBar title={title} percentage={percentage} />
-            </Styled.Skill>
+            <Styled.SkillItem key={id} s={percentage}>
+              {title}
+            </Styled.SkillItem>
           );
         })}
-      </Styled.Skills>
+        </Styled.SkillQuadrant>
+        <Styled.SkillQuadrant>
+        {frontend.map((item) => {
+          const {
+            id,
+            frontmatter: { title, percentage }
+          } = item.node;
+
+          return (
+            <Styled.SkillItem key={id} s={percentage}>
+              {title}
+            </Styled.SkillItem>
+          );
+        })}
+        </Styled.SkillQuadrant>
+        <Styled.SkillQuadrant>
+        {cloud.map((item) => {
+          const {
+            id,
+            frontmatter: { title, percentage }
+          } = item.node;
+
+          return (
+            <Styled.SkillItem key={id} s={percentage}>
+              {title}
+            </Styled.SkillItem>
+          );
+        })}
+        </Styled.SkillQuadrant>
+        <Styled.SkillQuadrant>
+        {misc.map((item) => {
+          const {
+            id,
+            frontmatter: { title, percentage }
+          } = item.node;
+
+          return (
+            <Styled.SkillItem key={id} s={percentage}>
+              {title}
+            </Styled.SkillItem>
+          );
+        })}
+        </Styled.SkillQuadrant>
+      </Styled.SkillMatrix>
     </Container>
   );
 };

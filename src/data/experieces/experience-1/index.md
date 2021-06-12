@@ -1,9 +1,13 @@
 ---
 category: 'experiences'
-company: 'Forge Inc'
-position: 'UI/UX Designer'
-startDate: 'Mar 2010'
-endDate: 'Dec 2010'
+company: 'Tata Consultancy Services'
+group: ''
+position: 'Automation Engineer'
+startDate: 'Jan 2014'
+endDate: 'Jul 2017'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- Technical consultation on Automation
+- Framework development and implementation proving ROI and benefits of automation
+- Plan, estimate and strategy on API and End-to-End test automation
+- Customer presentations, training and tool fitment analysis

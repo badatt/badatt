@@ -23,5 +23,5 @@ export const Title = styled.h3`
 `;
 
 export const Content = styled.p`
-  ${tw`mt-1`};
+  ${tw`mt-1 text-sm`};
 `;

@@ -23,6 +23,12 @@ export const Title = styled.div`
 
 export const Subtitle = styled.div`
   ${tw`text-xs`};
+  text-transform: uppercase;
+  font-weight: light;
+`;
+
+export const Subtitle2 = styled.div`
+  ${tw`text-xs`};
 `;
 
 export const Date = styled.div`

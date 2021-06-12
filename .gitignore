@@ -16,6 +16,7 @@ eggs/
 .eggs/
 lib64/
 parts/
+parts/
 sdist/
 var/
 wheels/
@@ -270,7 +271,6 @@ cdk.out
 /.layer
 
 # cdk
-*.js
 !jest.config.js
 *.d.ts
 node_modules

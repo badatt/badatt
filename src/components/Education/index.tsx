@@ -15,6 +15,7 @@ interface Education {
     frontmatter: {
       university: string;
       degree: string;
+      major: string;
       startDate: string;
       endDate: string;
     };
@@ -41,6 +42,7 @@ const Education: React.FC = () => {
             frontmatter {
               university
               degree
+              major
               startDate
               endDate
             }
@@ -61,7 +63,7 @@ const Education: React.FC = () => {
         const {
           id,
           html,
-          frontmatter: { university, degree, startDate, endDate }
+          frontmatter: { university, degree, major, startDate, endDate }
         } = item.node;
 
         return (
@@ -69,7 +71,8 @@ const Education: React.FC = () => {
             key={id}
             title={university}
             subtitle={degree}
-            content={<FormatHtml content={html} />}
+            subtitle2={major}
+            content={<FormatHtml className="styled-list" content={html} />}
             startDate={startDate}
             endDate={endDate}
           />
