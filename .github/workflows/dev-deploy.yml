@@ -33,4 +33,4 @@ jobs:
 
       - name: Deploy
         working-directory: ./public
-        run: aws s3 sync . s3://prd-me-mewebstacknesteds-webappdeploymentbucketf2-hmyrz3aob74y --acl bucket-owner-full-control
+        run: aws s3 sync . s3://prd-me-mewebstacknesteds-rootdeploymentbucket3b5e-wii9a6y5zbor --acl bucket-owner-full-control

@@ -112,6 +112,18 @@
     "@aws-cdk/cx-api" "1.95.1"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-cloudfront-origins@1.95.1":
+  version "1.95.1"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cloudfront-origins/-/aws-cloudfront-origins-1.95.1.tgz#5e33d12a892e4af710b8ddcd064f93aadb4018cb"
+  integrity sha512-NsBBVQuHS2taY8eV5Nv73Yb58H3s3IkX4U35zX89Tatl/mdwdjw7+N/rhordhoEiCvfJngBPxRBrlb+I7R6yFw==
+  dependencies:
+    "@aws-cdk/aws-cloudfront" "1.95.1"
+    "@aws-cdk/aws-elasticloadbalancingv2" "1.95.1"
+    "@aws-cdk/aws-iam" "1.95.1"
+    "@aws-cdk/aws-s3" "1.95.1"
+    "@aws-cdk/core" "1.95.1"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-cloudfront@1.95.1":
   version "1.95.1"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cloudfront/-/aws-cloudfront-1.95.1.tgz#568c822d04405d834fbad0ef1787fff5bc6f3561"
@@ -920,15 +932,14 @@
     "@babel/helper-validator-identifier" "^7.14.0"
     to-fast-properties "^2.0.0"
 
-"@badatt/infra-lib@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@badatt/infra-lib/-/infra-lib-0.0.2.tgz#1b697131b11f9ec2cdd0a5646b4c8f501e3315cb"
-  integrity sha512-PH9Hfd1unm+Px9i8fbFs4XTzZ5mZtqz8i8P/as3NsH+02Iaulnaeaq/enJW4hDH/B/IMy11HceHq/Ur91ZDJgQ==
+"@badatt/infra-lib@file:.yalc/@badatt/infra-lib":
+  version "0.0.3"
   dependencies:
     "@aws-cdk/assert" "1.95.1"
     "@aws-cdk/aws-apigateway" "1.95.1"
     "@aws-cdk/aws-certificatemanager" "1.95.1"
     "@aws-cdk/aws-cloudfront" "1.95.1"
+    "@aws-cdk/aws-cloudfront-origins" "1.95.1"
     "@aws-cdk/aws-cloudwatch" "1.95.1"
     "@aws-cdk/aws-codedeploy" "1.95.1"
     "@aws-cdk/aws-ec2" "1.95.1"

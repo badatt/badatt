@@ -17,6 +17,7 @@ export class MeWebStack extends BaseNestedStack {
       certificate: props.certificate,
       hostedZone: props.hostedZone,
       siteUrl: props.siteUrl,
+      routes: ['/youtube-clone']
     });
   }
 }
