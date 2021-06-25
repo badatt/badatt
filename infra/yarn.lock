@@ -932,8 +932,10 @@
     "@babel/helper-validator-identifier" "^7.14.0"
     to-fast-properties "^2.0.0"
 
-"@badatt/infra-lib@file:.yalc/@badatt/infra-lib":
-  version "0.0.3"
+"@badatt/infra-lib@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@badatt/infra-lib/-/infra-lib-0.0.4.tgz#ee2ad5e5a4f9b909a432d5169f04dc07af0c6a06"
+  integrity sha512-NJ4bGGkC6uq5TDqHnjFPgYZVSjm1Wmjvof7MZdGAqVCk1zPAi42/k6zohAtPzTInfZNnB2iD8HouxaFRjcDlJQ==
   dependencies:
     "@aws-cdk/assert" "1.95.1"
     "@aws-cdk/aws-apigateway" "1.95.1"
@@ -1958,9 +1960,9 @@ concat-map@0.0.1:
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
 constructs@^3.3.69:
-  version "3.3.75"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.75.tgz#222516951fd6b8380cb6fea3c171eeca0bf980a4"
-  integrity sha512-q10foASSSfDWmS99OQLfnWDXCzqLvoORISAVWPFg0AmIGlBv2ZdDOtXxLqrJARPxVlOldmW2JzWzdRI+4+0/ZA==
+  version "3.3.87"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.87.tgz#374d8660c6a40148af6d9c0125918405ab1366f1"
+  integrity sha512-/SQrY1RP9KQsSyyVeyBTSMIiC5yOJO635YVqPH6XBsS5MMkBHd4gsPOX4FkpkDLMC1shAoK0FSTLatgxFiS4+A==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
