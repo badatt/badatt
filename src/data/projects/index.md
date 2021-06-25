@@ -1,5 +1,5 @@
 ---
 category: 'projects section'
 title: 'All Projects'
-subtitle: 'Projects'
+subtitle: 'Personal Projects'
 ---
