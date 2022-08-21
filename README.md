@@ -10,7 +10,7 @@ I am always interested in creating some awesome stuff
 ## Projects
 
 <div style="display:flex">
-  <a href="https://main--62f5d4e6c0b101cafe0f9e33.chromatic.com/" target="_blank"><img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/docs/storybook-logo.png"/>
+  <a href="https://main--62f5d4e6c0b101cafe0f9e33.chromatic.com/" target="_blank"><img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/storybook-logo.png"/>
 </div>
 
 ## GitHub Stats
