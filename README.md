@@ -15,8 +15,6 @@ I am open to collaborate with you in creating some awesome apps
 
 ## GitHub Stats
 
-[![Balu Praveen Datty's GitHub stats](https://github-readme-stats.vercel.app/api?username=badatt&show_icons=true&theme=tokyonight)](https://github.com/badatt/github-readme-stats)
-
 [![Balu Praveen Datty's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=badatt&layout=compact&theme=tokyonight)](https://github.com/badatt/github-readme-stats)
 
 ## 😂 Here is a random joke that'll make you laugh
