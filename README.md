@@ -2,7 +2,7 @@
 
 I’m @badatt (Balu) <br>
 👀 I’m interested in developing Full-stack Web Apps <br>
-📰 I've always been crazy about building my portfolio, care to check it out? Just jump onto [badatt.dev](https://badatt.dev) <br />
+📰 I've always been crazy about building my portfolio, care to check it out? Just jump onto [balu.datty.in](https://balu.datty.in/) <br />
 I am open to collaborate with you in creating some awesome apps
 
 📫 Connect with me on my [linkedin](https://www.linkedin.com/in/balu-praveen-datty-210561a4/) <br>
